@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DayList</string>
+    <string name="dayList">今日计划</string>
+    <string name="punch">每日打卡</string>
+    <string name="accountCenter">用户中心</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

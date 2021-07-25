@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/dayListFragment"
+        android:icon="@mipmap/navigation_daylist"
+        android:title="@string/dayList"/>
+    <item android:id="@+id/punchFragment"
+        android:icon="@mipmap/navigation_punch"
+        android:title="@string/punch"/>
+    <item android:id="@+id/accountFragment"
+        android:icon="@mipmap/navigation_account"
+        android:title="@string/accountCenter"/>
+</menu>

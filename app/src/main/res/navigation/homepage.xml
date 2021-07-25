@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage"
+    app:startDestination="@id/dayListFragment">
+
+    <fragment
+        android:id="@+id/dayListFragment"
+        android:name="fragment.DayListFragment"
+        android:label="fragment_day_list"
+        tools:layout="@layout/fragment_day_list" />
+    <fragment
+        android:id="@+id/punchFragment"
+        android:name="fragment.PunchFragment"
+        android:label="fragment_punch"
+        tools:layout="@layout/fragment_punch" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="fragment.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+
+</navigation>
